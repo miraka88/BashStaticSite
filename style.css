@@ -1,0 +1,134 @@
+
+        body{
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #6b6e70;
+            color: antiquewhite;
+        }
+        #navbar {
+            padding: 0.5rem;
+            margin: 0.5rem;
+            background-color: #86c232;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        #navbar a{
+            color: antiquewhite;
+            padding: 2.0rem;
+            text-decoration: none;
+
+        }
+        #navlogo{
+            height: 5rem;
+            width: 8rem;
+            padding-top: 0.2rem;
+            display: block;
+            margin: auto;
+            
+        }
+        #nav_menu{
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+        .title{
+            text-align: center;
+
+        }
+        #bashtitle{
+            margin: 3rem 1rem 1rem 0.2rem;
+            padding: 2rem 2rem 4rem 1rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-column-gap: 2rem;
+            position: relative;
+            text-align: center;
+        }
+        #welcome{
+            position: absolute;
+            padding: 1rem;
+            width: 45%;
+            
+        }
+        #welcome_image{
+            width: 40rem;
+            height: 25rem;
+        }
+        #bash_free_manual{
+            height: 15rem;
+        }
+        #services{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            background-color: white;
+            margin-bottom: 4rem;
+        }
+        .service_tab{
+            background-color: #86c232;
+            border: 2px solid #474b4f;
+            text-align: center;
+        }
+        .btn_learn_more{
+            background-color: #61892f;
+            color: white;
+            text-decoration: none;
+            border: 0.3rem solid #474b4f;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            margin: 1rem 1rem 1rem 1rem;
+            display: inline-block;
+            border-radius: 1rem;
+            box-sizing: border-box;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .btn_learn_more:hover{
+            border: 0.3rem solid white;
+        }
+        .services_img{
+            width: 15rem;
+            height: 10rem;
+            margin: auto;
+            display: block;
+        }
+        #form{
+            border: 0.3rem solid #474b4f;
+            background-color: #86c232;
+            text-align: left;
+            padding: 2rem 0.5rem 2rem 2rem;
+            margin: auto;
+            display: block;
+            width: 50%;
+            box-sizing: border-box;
+            margin-bottom: 4rem;
+            
+        }
+        #about_container{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-gap: 1fr;
+            background-color: #86c232;
+            border: 0.3rem solid #474b4f;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 4rem;
+        }
+        #image_actual{
+            height: 21rem;
+            width: 25rem;
+            margin: 1rem;
+        }
+        #about_text{
+            padding: 1rem 1rem 1rem 0.5rem;
+        }
+        #main_footer{
+            background-color: #86c232;
+            text-align: center;
+            padding: 0.2rem;
+            margin-top: 1rem;
+        }
+        #learn_more_text{
+            display: none;
+        }
+
+        
+
