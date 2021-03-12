@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<header id="navbar">
+    <div><img id="navlogo" src="images/bash.jpg" alt="bash"></div>
+    <nav id="nav_menu"> 
+
+        <a href="bash.html">HOME</a>
+        <a href="bash.html#services_btn">SERVICES</a>
+        <a href="bash.html#about_btn">ABOUT</a>
+        <a href="">CONTACT</a>
+
+    </nav>
+    <div><img id="navlogo" src="images/bash.jpg" alt="bash"></div>
+</header>
+
+<body>
+
+
+    <h1 id="title">BASH Strength Contact Form</h1>
+    
+    <form id="survey-form">
+
+        <p id="name-label">Name</p>
+        <input id="name" type="text" placeholder="name"><br><br>
+
+        <p id="email-label">Email</p>
+        <input id="email" type="text" placeholder="email"><br><br>
+
+        <p id="number-label">Phone Number</p>
+        <input type="tel" placeholder="number" id="number"><br><br>
+        
+        <p>which best describes your level of gym experience?</p>
+        <select id="dropdown" name="gymexp">
+        <option value="select">Please Select</option>
+        <option value="highexp">I'm a gym junkie. </option>
+     <option value="medexp">I've been to gyms on and off for a few years.</option>
+        <option value="lowexp">Ive exercised before, but dont know my way around a gym.</option>
+        <option value="noexp">whats a gym?</option>
+        </select><br>
+        <br>
+        
+        <textarea rows="10" cols="60" name="comments" id="comments">Enter comments here....
+        </textarea><br>
+        <br>
+        <button class="btn_submit_form" id="submit" type="submit">Submit</button>
+    </form>
+      <footer id="main_footer">
+		<p>Copyright &copy 2020; My Website</p>
+	</footer>
+</body>
+</html>
